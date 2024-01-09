@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Text Extractor",
+  "name": "Vine detail copy",
   "version": "1.0",
-  "description": "Extract text from specified elements on Amazon Vine pages.",
+  "description": "Copies Vine product details to the clipboard.",
   "permissions": ["activeTab"],
   "icons": {
     "16": "images/icon16.png",
