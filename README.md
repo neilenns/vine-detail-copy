@@ -1,0 +1,15 @@
+# Vine detail copy extension
+
+Adds a copy button to the product details pop-up on Vine listings:
+
+<img width="668" alt="image" src="https://github.com/neilenns/vine-detail-copy/assets/9524118/f4208f17-dfe5-4e1b-8826-669f11f0b2f1">
+
+Click the copy button to add the product title, price, URL, "Limited" (if limited quantity), and @free (if free) to your clipboard for easy pasting in your favourite Vine Discord.
+
+## Installation
+
+1. Downlaod this repo to a folder somewhere on your computer.
+2. Go to [chrome://extensions](chrome://extensions) in your browser
+3. Enable `Developer Mode` in the left hand pane
+4. Click `Load unpacked` and select the folder from step 1.
+5. Reload your Vine page (if it was already open) 
