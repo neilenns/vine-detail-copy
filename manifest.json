@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Text Extractor",
+  "version": "1.0",
+  "description": "Extract text from specified elements on Amazon Vine pages.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["images/copy-solid.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.amazon.com/vine/*"],
+      "js": ["lib/jquery-3.7.1.slim.min.js", "content.js"]
+    }
+  ]
+}
