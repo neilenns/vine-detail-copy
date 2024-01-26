@@ -18,7 +18,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.amazon.com/vine/*"],
-      "js": ["lib/jquery-3.7.1.slim.min.js", "content.js"]
+      "js": ["lib/jquery-3.7.1.slim.min.js", "content.js", "lib/he.js"]
     }
   ]
 }

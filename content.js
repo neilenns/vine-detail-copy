@@ -47,10 +47,11 @@ function injectButton(mutations, observer) {
         isLimited ? " limited " : " "
       }${titleLink.href} `;
 
+      const decodedString = he.decode(detailString);
       navigator.clipboard
-        .writeText(detailString)
+        .writeText(decodedString)
         .then(() => {
-          console.log(detailString);
+          console.log(decodedString);
         })
         .catch((err) => {
           console.error("Unable to copy product details to the clipboard", err);
